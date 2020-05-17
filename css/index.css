@@ -1,0 +1,206 @@
+.header{
+    background-color: gray;
+    text-align: center;
+    padding: 25px 25px;
+}
+
+
+body{
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    text-align: justify;
+}
+
+
+nav{
+    background-color: #660066;
+    margin: 0;
+    font-size: 18px;
+    padding: 8px;
+    position: relative;
+}
+
+main{
+    width: 70%;
+    margin: auto;
+/*    margin-top: 30px;
+    margin-left: 250px;*/
+}
+
+.menu-item{
+    margin: auto;
+    text-align: center;
+}
+
+.menu-item-bla{
+    display: inline;
+    margin: 20px 10px 20px 10px;
+    /*font-weight: bold;*/
+    /*transition: transform 500ms ease-in-out;*/
+}
+
+
+.ul {
+    margin-left: 20px;
+}
+
+.projeto
+{
+    margin-left: 30px;
+}
+nav a{
+    color: #ffffff;
+}
+
+.red{
+    color: #b51f14;
+}
+
+.pulsate {
+    -webkit-animation: pulsate 1s ease-out;
+    -webkit-animation-iteration-count: infinite; 
+    opacity: 0.5;
+}
+@-webkit-keyframes pulsate {
+    0% { 
+        opacity: 0.5;
+    }
+    50% { 
+        opacity: 1.0;
+    }
+    100% { 
+        opacity: 0.5;
+    }
+}
+
+a:hover{
+    color: #f2f2f2;
+}
+
+span a{
+    text-decoration: none;
+    color: #299dba;
+
+}
+
+a{
+    text-decoration: none;
+    color: #ed9c39;
+
+}
+
+
+.satanas{
+    height: 200px;
+    border-radius: 50% 50% 50% 50%;
+}
+
+.header h2{
+    margin: 0;
+    font-size: 18px;
+}
+
+.linha-cinza{
+    width: 60%;
+    border-bottom: 1px solid;
+    border-color: lightgray;
+    margin: auto;
+}
+
+h1{
+    font-size: 50px;
+    font-family: 'Bree Serif', serif;
+    margin-top: 5px;
+}
+
+.header h1{
+    margin-bottom: 0;
+}
+
+
+section{
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+section h3{
+    font-size: 15px;
+    min-width: 150px;
+    text-align: right;
+    margin-right: 50px;
+    padding-top: 5px;
+    
+}
+
+h4 p span{
+    font-size: 12px;
+}
+
+ul{
+    padding: 0;
+    /*list-style: none;*/
+}
+
+li{
+    margin-bottom: 10px;
+	
+}
+
+div ul li{
+	margin-left: 40px;
+}
+
+div li{
+	margin-left: 40px;
+}
+
+
+div li ul{
+	margin-left: 40px;
+}
+
+footer{
+    text-align: center;
+    background-color: lightslategray;
+    padding: 2px;
+}
+
+footer a:hover {
+    color: #660000;
+    text-decoration: none;
+}
+
+@media screen and (max-width:768px) {
+
+    section{
+    display: block;
+}
+
+section h3{
+    text-align: left;
+    
+}
+
+body{
+    text-align: left;
+}
+
+main{
+    width: 85%;
+}
+
+h1{
+    font-size: 30px;}
+
+}
+
+.header h2{
+    font-size: 15px;
+}
+
+nav{
+    display: none;
+}
+
+}

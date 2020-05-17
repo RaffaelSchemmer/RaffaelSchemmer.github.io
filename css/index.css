@@ -1,3 +1,4 @@
+
 .header{
     background-color: gray;
     text-align: center;
@@ -53,7 +54,7 @@ nav a{
 }
 
 .red{
-    color: #b51f14;
+    color: #a32017;
 }
 
 .pulsate {
@@ -90,9 +91,16 @@ a{
 }
 
 
-.satanas{
+.perfil{
     height: 200px;
     border-radius: 50% 50% 50% 50%;
+}
+
+.social{
+	width: 32px;
+    height: 32px;
+	margin-left:10px;
+    margin-top:20px;
 }
 
 .header h2{
